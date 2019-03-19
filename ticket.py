@@ -105,6 +105,7 @@ class cinema():
                 print('按任意键继续。。。')
                 msvcrt.getwch()
     
+	
     def add_changci(self):
         while True:
             yt=self.__exe('SELECT name FROM infoRoom;')
